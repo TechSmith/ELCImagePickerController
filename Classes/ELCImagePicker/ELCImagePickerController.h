@@ -40,6 +40,7 @@
  * or NO for an image suitable for displaying full screen on the device.
  */
 @property (nonatomic, assign) BOOL returnsOriginalImage;
+@property (nonatomic, assign) BOOL returnsImages;
 
 - (id)initImagePicker;
 - (void)cancelImagePicker;

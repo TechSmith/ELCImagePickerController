@@ -154,6 +154,10 @@
     }
 }
 
+- (void)assetDeselected:(ELCAsset *)asset
+{
+}
+
 #pragma mark UITableViewDataSource Delegate Methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
